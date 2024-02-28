@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite">
+<listeners>
+        <listener class-name="extentreports.ExtentReportListener"/>
+    </listeners>
+
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="screencapture.Screenshot"/>
+      <class name="homepage.Homepage_false"/>
+      <class name="login_one.Login_false"/>
+      <class name="homepage.Homepage_true"/>
+      <class name="login_one.Login_true"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
